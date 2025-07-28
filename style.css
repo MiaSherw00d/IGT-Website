@@ -86,6 +86,19 @@
   height: auto;
 }
 
+.embed-video {
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: 16 / 9;
+  flex-shrink: 0;
+}
+
+.embed-video iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 .talk-content {
   flex: 1;
   min-width: 300px;
