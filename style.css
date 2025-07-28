@@ -73,19 +73,22 @@
 .talk-inner {
   max-width: 1000px;
   display: flex;
-  gap: 16px;
+  gap: 32px;
   align-items: center;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .talk-img {
   max-width: 300px;
   width: 100%;
+  flex-shrink: 0;
   height: auto;
 }
 
 .talk-content {
-  max-width: 1000px;
+  flex: 1;
+  min-width: 300px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -177,6 +180,12 @@
   @media (max-width: 768px) {
     .talk-inner {
       flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    
+    .talk-content {
+      width: 100%;
     }
   }
   
