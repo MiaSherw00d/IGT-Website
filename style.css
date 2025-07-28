@@ -47,8 +47,8 @@
 
 .header {
   max-width: 1000px;
-  padding-left: 24px;
-  padding-top: 100px;
+  padding-left: 48px;
+  padding-top: 128px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -166,7 +166,7 @@
   .footer a {
     text-decoration: none;
     color: #421563;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
   }
 
