@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Publications | Ian Teixeira</title>
+  <link href="https://fonts.googleapis.com/css2?family=Hanuman:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!--nav bar-->
+  <div class="navbar">
+    <div class = "navbar-inner">
+      <a href="index.html" class="logo">IGT</a>
+      <div class="navbar-links">
+        <a href="publications.html">Publications</a>
+        <a href="talks.html">Talks</a>
+      </div>
+    </div>
+  </div>
+  
+ <!--header-->
+  <div class="header">
+    <h1>Publications</h1>
+  </div>
+
+<!--pub 4-->
+<div class="talk-block">
+  <div class="talk-inner">
+    <img class="talk-img" src="charimage.png"/>
+    <div class="talk-content">
+      <div class="talk-title">Quantum codes and irreducible products of characters</div>
+      <div class="talk-desc">Eric Kubischta & Ian Teixeira (2025)<br>Designs, Codes and Cryptography</div>
+      <div class="button-row">
+        <div class="outer-button">
+          <div class="inner-button">
+            <a href="href="https://link.springer.com/article/10.1007/s10623-025-01599-8" target="_blank">Published Here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--pub 3-->
+<div class="talk-block">
+  <div class="talk-inner">
+    <img class="talk-img" src="ieeeimage.png"/>
+    <div class="talk-content">
+      <div class="talk-title">Permutation-Invariant Quantum Codes With Transversal Generalized Phase Gates</div>
+      <div class="talk-desc">Eric Kubischta & Ian Teixeira (2024)<br>IEEE Transactions on Information Theory</div>
+      <div class="button-row">
+        <div class="outer-button">
+          <div class="inner-button">
+            <a href="href="https://ieeexplore.ieee.org/document/10739355" target="_blank">Published Here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--pub 2-->
+<div class="talk-block">
+  <div class="talk-inner">
+    <img class="talk-img" src="tgroupsimage.png"/>
+    <div class="talk-content">
+      <div class="talk-title">Quantum Codes from Twisted Unitary 𝑡-Groups</div>
+      <div class="talk-desc">Eric Kubischta & Ian Teixeira (2024)<br>Physical Review Letters</div>
+      <div class="button-row">
+        <div class="outer-button">
+          <div class="inner-button">
+            <a href="href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.030602" target="_blank">Published Here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--pub 1-->
+<div class="talk-block">
+  <div class="talk-inner">
+    <img class="talk-img" src="gatesimage.png"/>
+    <div class="talk-content">
+      <div class="talk-title">Family of Quantum Codes with Exotic Transversal Gates</div>
+      <div class="talk-desc">Eric Kubischta & Ian Teixeira (2023)<br>Physical Review Letters</div>
+      <div class="button-row">
+        <div class="outer-button">
+          <div class="inner-button">
+            <a href="href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.240601" target="_blank">Published Here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--footer-->
+<div class="footer">
+  <div class="footer-inner">
+    <a href="#top">IGT</a>
+    <div class="footer-contact">
+      <svg width="50" height="34" viewBox="0 0 50 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M49 0.793457V33.2066H1V0.793457M49 0.793457H1M49 0.793457L24.7798 21.2972L1 0.793457" stroke="#463492"/>
+      </svg>
+      <div>iteixeira [at] ucsd [dot] edu</div>
+    </div>
+  </div>
+</div>
+
+    
+</body>
+
+
+</html>
