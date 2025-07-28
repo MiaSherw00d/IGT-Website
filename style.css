@@ -4,8 +4,8 @@
 
   body {
     margin: 0; 
-    font-fmaily: 'Hanuman', serif;
-    background: #E8FBEF
+    font-family: 'Hanuman', serif;
+    background: #E8FBEF;
   }
 
 .navbar {
@@ -56,7 +56,7 @@
 }
 
 .header h1 {
-  font-size: 30px
+  font-size: 30px;
   font-weight: 700;
   color: #421563;
   letter-spacing: 3px;
@@ -73,13 +73,13 @@
 .talk-inner {
   max-width: 1000px;
   display: flex;
-  gap: 16px:
+  gap: 16px;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .talk-img {
-  max-width: 300px:
+  max-width: 300px;
   width: 100%;
   height: auto;
 }
@@ -124,7 +124,7 @@
 
 .inner-button {
   background: #C3F99F;
-  padding: 5px
+  padding: 5px;
   border-radius: 15px;
 }
 
@@ -136,6 +136,7 @@
   line-height: 30px;
   text-align: center;
   text-decoration: none;
+}
   
   .footer {
     width: 100%;
@@ -161,7 +162,7 @@
 
   .footer a {
     text-decoration: none;
-    color: #421563
+    color: #421563;
     font-size: 20px;
     font-weight: 700;
   }
