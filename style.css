@@ -65,7 +65,7 @@
 
 /* outer container */
 .talk-block {
-  padding: 36px 24px 56px 24px;
+  padding: 36px 24px 56px 0px;
   display: flex;
   justify-content: center;
 }
