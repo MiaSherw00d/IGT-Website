@@ -65,18 +65,18 @@
 
 /* outer container */
 .talk-block {
-  padding: 36px 24px 56px 0px;
-  display: flex;
-  justify-content: center;
+  margin: 0 auto 40px;
+  max-width: 1100px;    /* adjust to taste */
+  padding: 0 16px;
 }
 /* inner container*/
 .talk-inner {
-  max-width: 1000px;
   display: flex;
-  gap: 32px;
-  align-items: center;
-  flex-wrap: wrap;
   flex-direction: row;
+  gap: 24px;
+  justify-content: flex-start;   /* FORCE left alignment */
+  align-items: flex-start;
+  width: 100%;
 }
 
 .talk-img {
@@ -100,7 +100,7 @@
 }
 
 .talk-content {
-  flex: 1;
+  flex: 1 1 auto;
   min-width: 300px;
   display: flex;
   flex-direction: column;
